@@ -12,8 +12,8 @@ const HeroImg=()=>{
                 <p>Hi, I'am Dipak</p>
                 <h1>Front End Developer.</h1>
                 <div className="Button">
-                <Link to="PortfolioReact/project" className="button" >Projects</Link>
-                <Link to="PortfolioReact/contact" className="button btn-light" >Contacts</Link>
+                <Link to="/project" className="button" >Projects</Link>
+                <Link to="/contact" className="button btn-light" >Contacts</Link>
             </div>
             </div>
             
