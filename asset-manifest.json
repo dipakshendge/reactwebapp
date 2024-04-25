@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/reactwebapp/static/css/main.24b48f2e.css",
-    "main.js": "/reactwebapp/static/js/main.2bc88991.js",
+    "main.js": "/reactwebapp/static/js/main.308498db.js",
     "static/media/rest.PNG": "/reactwebapp/static/media/rest.b5727785de133df0cc00.PNG",
     "static/media/bgimg.jpg": "/reactwebapp/static/media/bgimg.e223b8e498bd5bae8f24.jpg",
     "static/media/calculator.PNG": "/reactwebapp/static/media/calculator.b7bd71d908fa38e8ddff.PNG",
     "index.html": "/reactwebapp/index.html",
     "main.24b48f2e.css.map": "/reactwebapp/static/css/main.24b48f2e.css.map",
-    "main.2bc88991.js.map": "/reactwebapp/static/js/main.2bc88991.js.map"
+    "main.308498db.js.map": "/reactwebapp/static/js/main.308498db.js.map"
   },
   "entrypoints": [
     "static/css/main.24b48f2e.css",
-    "static/js/main.2bc88991.js"
+    "static/js/main.308498db.js"
   ]
 }
