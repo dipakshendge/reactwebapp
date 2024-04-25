@@ -9,16 +9,18 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "./componant/footer/footer";
 function App() {
   return (
-    <>
+    <BrowserRouter basename="/reactwebapp">
+      <>
         <Navbar />
         <Routes>
-         <Route path="/" element={<Home />} />
-         <Route path="PortfolioReact/about" element={<About />} />
-         <Route path="PortfolioReact/project" element={<Project />} />
-         <Route path="PortfolioReact/contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="portfolioreact/about" element={<About />} />
+          <Route path="portfolioreact/project" element={<Project />} />
+          <Route path="portfolioreact/contact" element={<Contact />} />
         </Routes>
         <Footer />
     </>
+    </BrowserRouter>
   );
 }
 
