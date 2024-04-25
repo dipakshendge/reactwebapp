@@ -23,16 +23,16 @@ const Navbar= () =>{
             </Link>
             <ul className={click ? "nav-menu active":"nav-menu"}>
                 <li className="btn btn-secondary">
-                    <Link to="/" target="_parent">Home</Link>
+                    <Link to="/">Home</Link>
                 </li>
                 <li className="btn btn-secondary">
-                    <Link to="/project" target="_parent">Project</Link>
+                    <Link to="PortfolioReact/project">Project</Link>
                 </li>
                 <li className="btn btn-secondary">
-                    <Link to="/about" target="_parent">About</Link>
+                    <Link to="PortfolioReact/about">About</Link>
                 </li>
                 <li className="btn btn-secondary">
-                    <Link to="/contact" target="_parent">Contact</Link>
+                    <Link to="PortfolioReact/contact">Contact</Link>
                 </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
