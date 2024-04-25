@@ -26,13 +26,13 @@ const Navbar= () =>{
                     <Link to="/" target="_parent">Home</Link>
                 </li>
                 <li className="btn btn-secondary">
-                    <Link to="PortfolioReact/project" target="_parent">Project</Link>
+                    <Link to="/project" target="_parent">Project</Link>
                 </li>
                 <li className="btn btn-secondary">
-                    <Link to="PortfolioReact/about" target="_parent">About</Link>
+                    <Link to="/about" target="_parent">About</Link>
                 </li>
                 <li className="btn btn-secondary">
-                    <Link to="PortfolioReact/contact" target="_parent">Contact</Link>
+                    <Link to="/contact" target="_parent">Contact</Link>
                 </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
